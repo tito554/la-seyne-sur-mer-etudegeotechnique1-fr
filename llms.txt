@@ -1,0 +1,52 @@
+# Geotechnique — La Seyne-sur-Mer
+
+> Geotechnical engineering services in La Seyne-sur-Mer, France.
+
+## Services
+- [Amelioration Sols](https://la-seyne-sur-mer.etudegeotechnique1.fr/amelioration-sols/)
+- [Ancrages](https://la-seyne-sur-mer.etudegeotechnique1.fr/ancrages/)
+- [Cbr Routier](https://la-seyne-sur-mer.etudegeotechnique1.fr/cbr-routier/)
+- [Chaussee Rigide](https://la-seyne-sur-mer.etudegeotechnique1.fr/chaussee-rigide/)
+- [Chaussee Souple](https://la-seyne-sur-mer.etudegeotechnique1.fr/chaussee-souple/)
+- [Colonnes Ballastees](https://la-seyne-sur-mer.etudegeotechnique1.fr/colonnes-ballastees/)
+- [Confidentialite](https://la-seyne-sur-mer.etudegeotechnique1.fr/confidentialite/)
+- [Densite Cone Sable](https://la-seyne-sur-mer.etudegeotechnique1.fr/densite-cone-sable/)
+- [Essai Cpt](https://la-seyne-sur-mer.etudegeotechnique1.fr/essai-cpt/)
+- [Essais Proctor](https://la-seyne-sur-mer.etudegeotechnique1.fr/essais-proctor/)
+- [Excavations](https://la-seyne-sur-mer.etudegeotechnique1.fr/excavations/)
+- [Excavations Profondes](https://la-seyne-sur-mer.etudegeotechnique1.fr/excavations-profondes/)
+- [Fondations](https://la-seyne-sur-mer.etudegeotechnique1.fr/fondations/)
+- [Geotechnique Routiere](https://la-seyne-sur-mer.etudegeotechnique1.fr/geotechnique-routiere/)
+- [Granulometrie](https://la-seyne-sur-mer.etudegeotechnique1.fr/granulometrie/)
+- [Injections](https://la-seyne-sur-mer.etudegeotechnique1.fr/injections/)
+- [Investigation](https://la-seyne-sur-mer.etudegeotechnique1.fr/investigation/)
+- [Isolation Sismique](https://la-seyne-sur-mer.etudegeotechnique1.fr/isolation-sismique/)
+- [Labo In Situ](https://la-seyne-sur-mer.etudegeotechnique1.fr/labo-in-situ/)
+- [Laboratoire](https://la-seyne-sur-mer.etudegeotechnique1.fr/laboratoire/)
+- [Limites Atterberg](https://la-seyne-sur-mer.etudegeotechnique1.fr/limites-atterberg/)
+- [Liquefaction](https://la-seyne-sur-mer.etudegeotechnique1.fr/liquefaction/)
+- [Masw](https://la-seyne-sur-mer.etudegeotechnique1.fr/masw/)
+- [Microzonage Sismique](https://la-seyne-sur-mer.etudegeotechnique1.fr/microzonage-sismique/)
+- [Murs Soutenement](https://la-seyne-sur-mer.etudegeotechnique1.fr/murs-soutenement/)
+- [Permeabilite In Situ](https://la-seyne-sur-mer.etudegeotechnique1.fr/permeabilite-in-situ/)
+- [Pieux](https://la-seyne-sur-mer.etudegeotechnique1.fr/pieux/)
+- [Puits Inspection](https://la-seyne-sur-mer.etudegeotechnique1.fr/puits-inspection/)
+- [Radiers](https://la-seyne-sur-mer.etudegeotechnique1.fr/radiers/)
+- [Refraction Sismique](https://la-seyne-sur-mer.etudegeotechnique1.fr/refraction-sismique/)
+- [Resistivite](https://la-seyne-sur-mer.etudegeotechnique1.fr/resistivite/)
+- [Semelles](https://la-seyne-sur-mer.etudegeotechnique1.fr/semelles/)
+- [Sismique](https://la-seyne-sur-mer.etudegeotechnique1.fr/sismique/)
+- [Sondages Spt](https://la-seyne-sur-mer.etudegeotechnique1.fr/sondages-spt/)
+- [Stabilite Talus](https://la-seyne-sur-mer.etudegeotechnique1.fr/stabilite-talus/)
+- [Surveillance Excavations](https://la-seyne-sur-mer.etudegeotechnique1.fr/surveillance-excavations/)
+- [Talus](https://la-seyne-sur-mer.etudegeotechnique1.fr/talus/)
+- [Triaxial](https://la-seyne-sur-mer.etudegeotechnique1.fr/triaxial/)
+- [Tunnels Sol Mou](https://la-seyne-sur-mer.etudegeotechnique1.fr/tunnels-sol-mou/)
+- [Vibrocompactage](https://la-seyne-sur-mer.etudegeotechnique1.fr/vibrocompactage/)
+
+## Contact
+- Website: https://la-seyne-sur-mer.etudegeotechnique1.fr/
+
+## About
+This site provides geotechnical engineering services in La Seyne-sur-Mer, France.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
