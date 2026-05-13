@@ -87,6 +87,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#1F2937) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <div class="topbar">
@@ -122,7 +158,7 @@ header.hero, .hero { position: relative !important; }
 
 <section class="block"><div class="container"><h2>FAQ</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<details><summary>Quelle est la différence entre un ancrage actif et un ancrage passif dans le contexte géotechnique de La Seyne-sur-Mer ?</summary><p>Un ancrage actif est précontraint : on le met en tension immédiatement après sa réalisation pour mobiliser la résistance du terrain avant tout déplacement de la structure, ce qui est utile quand on travaille contre un écran de palplanches près du port de La Seyne où l’on ne peut pas tolérer de déformation. Un ancrage passif n’est pas mis en tension initialement : il travaille « en réaction », en se déformant progressivement sous l’effet de la poussée des terres, typiquement dans les talus rocheux cloués du massif de Siou-Blanc. Dans les schistes altérés seynois, on privilégie souvent les ancrages actifs car le fluage des argiles pourrait compromettre un ancrage passif qui ne serait jamais sollicité assez tôt pour limiter les déplacements.</p></details><details><summary>Combien coûte une étude de conception d’ancrages pour un projet à La Seyne-sur-Mer ?</summary><p>Une étude complète de conception d’ancrages actifs ou passifs, incluant l’analyse des données géotechniques existantes, le dimensionnement selon l’Eurocode 7, la production des notes de calcul et la définition des spécifications techniques pour les essais de contrôle, se situe dans une fourchette indicative de 870 € à 3 200 €. Le montant dépend de la complexité de l’ouvrage, du nombre de tirants à dimensionner, et du niveau de détail requis par le bureau de contrôle.</p></details><details><summary>Quels sont les essais de contrôle obligatoires sur les ancrages après leur réalisation ?</summary><p>La norme NF EN 1537 et les recommandations du CFMS imposent trois types d’essais : des essais d’étude préalable sur tirants sacrificiels pour caler les paramètres de dimensionnement, des essais de conformité sur les premiers tirants de production (traction à 1,25 fois la charge de service), et des essais de contrôle systématique sur au moins 5 % des tirants restants. À La Seyne-sur-Mer, dans les remblais hétérogènes du littoral, nous recommandons de porter ce taux à 10 % et d’y ajouter une mesure de relaxation sur 72 heures pour chaque tirant situé à moins de 500 mètres du rivage, en raison du risque de fluage accru par la salinité de la nappe.</p></details></div></section>
+<details><summary>Quelle est la différence entre un ancrage actif et un ancrage passif dans le contexte géotechnique de La Seyne-sur-Mer ?</summary><p>Un ancrage actif est précontraint : on le met en tension immédiatement après sa réalisation pour mobiliser la résistance du terrain avant tout déplacement de la structure, ce qui est utile quand on travaille contre un écran de palplanches près du port de La Seyne où l’on ne peut pas tolérer de déformation. Un ancrage passif n’est pas mis en tension initialement : il travaille « en réaction », en se déformant progressivement sous l’effet de la poussée des terres, typiquement dans les talus rocheux cloués du massif de Siou-Blanc. Dans les schistes altérés seynois, on privilégie souvent les <a href="/ancrages/">ancrages</a> actifs car le fluage des argiles pourrait compromettre un ancrage passif qui ne serait jamais sollicité assez tôt pour limiter les déplacements.</p></details><details><summary>Combien coûte une étude de conception d’ancrages pour un projet à La Seyne-sur-Mer ?</summary><p>Une étude complète de conception d’ancrages actifs ou passifs, incluant l’analyse des données géotechniques existantes, le dimensionnement selon l’Eurocode 7, la production des notes de calcul et la définition des spécifications techniques pour les essais de contrôle, se situe dans une fourchette indicative de 870 € à 3 200 €. Le montant dépend de la complexité de l’ouvrage, du nombre de tirants à dimensionner, et du niveau de détail requis par le bureau de contrôle.</p></details><details><summary>Quels sont les essais de contrôle obligatoires sur les ancrages après leur réalisation ?</summary><p>La norme NF EN 1537 et les recommandations du CFMS imposent trois types d’essais : des essais d’étude préalable sur tirants sacrificiels pour caler les paramètres de dimensionnement, des essais de conformité sur les premiers tirants de production (traction à 1,25 fois la charge de service), et des essais de contrôle systématique sur au moins 5 % des tirants restants. À La Seyne-sur-Mer, dans les remblais hétérogènes du littoral, nous recommandons de porter ce taux à 10 % et d’y ajouter une mesure de relaxation sur 72 heures pour chaque tirant situé à moins de 500 mètres du rivage, en raison du risque de fluage accru par la salinité de la nappe.</p></details></div></section>
 
 
     <section class="block map-block" style="padding:3rem 1.5rem">
